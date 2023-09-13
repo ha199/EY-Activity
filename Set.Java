@@ -6,7 +6,7 @@ import java.util.Set;
 public class SetIterationWithDuplicates {
     public static void main(String[] args) {
         // Create a HashSet of String with at least 10 elements (including duplicates)
-        Set<String> stringSet = new HashSet<>();
+        Set<String> stringSet = new HashSet<String>();
         stringSet.add("Apple");
         stringSet.add("Banana");
         stringSet.add("Cherry");
